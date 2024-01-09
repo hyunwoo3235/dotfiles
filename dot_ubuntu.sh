@@ -1,14 +1,14 @@
 # Basic Setting
-sudo apt-get update
+# sudo apt-get update
 # sudo apt-get -y upgrade
-sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs tree
-sudo apt -y autoremove
+# sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs tree
+# sudo apt -y autoremove
 pip3 install -U pip && pip3 install -U awscli  # For fixing awscli issue
 pip3 install -U nvitop
 
 # Install zsh
-sudo apt-get install -y zsh
-sudo chsh -s /bin/zsh "$USER"
+# sudo apt-get install -y zsh
+# sudo chsh -s /bin/zsh "$USER"
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
@@ -36,8 +36,8 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 
 # github profile
-git config --global user.email "adieujw@gmail.com"
-git config --global user.name "monologg"
+git config --global user.email "hyunwoo3235@gmail.com"
+git config --global user.name "hyunwoo3235"
 
 # For save hugginface hub credential
 git config --global credential.helper store
@@ -49,4 +49,4 @@ git config --global core.editor "code --wait"
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Download anaconda script
-wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+# wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
